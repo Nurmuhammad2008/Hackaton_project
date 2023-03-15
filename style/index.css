@@ -1,8 +1,9 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 
 /* style list search jobs */
 
@@ -63,83 +64,107 @@
       padding-top: 20px;
   }
   
-  
-@media  (max-width:600px){
-    .type_services {
-        width: 100px;
-    }
-}
 
+/*  block_jobs */
 
 .block_jobs {
-  margin: 0 auto;
-  max-width: 786px;
-  padding: 16px 0px 84px 0;
+    margin: 0 auto;
+    max-width: 786px;
+    padding: 16px 0px 84px 0;  
 }
 
 .block_jobs form {
-  width: 100%;
-  border: 2px solid gainsboro;
-  border-radius: 10px;
-  padding: 5px 0 5px 0;
-  display: flex;
-  justify-content: center;
+    width: 100%;
+    border: 2px solid gainsboro;
+    border-radius: 10px;
+    padding: 5px 0 5px 0;
+    display: flex;
+    justify-content: center;
+
 }
+
+
+
 
 .block_jobs form input {
-  border: none;
-  width: 90%;
-  outline: none;
+border: none;
+width:90%;
+outline: none;
+}
+
+.block_jobs form i {
+    color: gainsboro;
+    float: right;
+    text-align: center  ;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
 }
 
 
-.block_jobs form input::-webkit-input-placeholder {
-  color: gainsboro;
-}
+.block_jobs form input::-webkit-input-placeholder { 
+
+    color: gainsboro;
+} 
 
 .block_jobs h4 {
-  text-align: center;
-  padding: 0 0 16px 0;
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 24px;
+    text-align: center;
+    padding: 0 0 16px 0;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
 }
+
+
 
 .list_job {
-  display: flex;
-  flex-wrap: wrap;
-  padding-top: 40px;
-  gap: 20px;
-  justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    gap: 20px;
+    justify-content: space-evenly;
+    
+    
 }
 
+
 .type_job {
-  transition: all 1s;
-  align-items: center;
-  width: 46%;
-  border-radius: 10px;
-  padding: 2px 0 0 10px;
-  column-gap: 20px;
-  display: flex;
-  text-align: center;
-  box-shadow: 5px 0px 20px rgba(176, 176, 245, 0.623);
+    align-items: center;
+    width: 46%;
+    border-radius: 10px;
+    padding: 2px 0  0 10px;
+    column-gap: 20px;
+    display: flex;
+    text-align: center;
+    box-shadow: 5px 0px 20px rgba(176, 176, 245, 0.623);
+
+  
 }
 
 .type_job p {
-  padding-top: 10px;
-  cursor: pointer;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 28px;
+    padding-top: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.type_job   svg  {
+    color: gainsboro;
 }
 
 
+.type_job i   {
+    color: gainsboro;
+    align-items: center;
+}
+
 .type_job:hover {
-  transition: all 1s;
-  border: 3px solid #00ab2d;
-  transition: 0.1s;
+    border: 3px solid #00ab2d;
+    transition: 0.1s;
+    
 }
 section {
     padding: 0;
-    margin: 0;
+
 }
