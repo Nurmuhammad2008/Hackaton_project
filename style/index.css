@@ -71,7 +71,6 @@
 }
 
 
-
 .block_jobs {
   margin: 0 auto;
   max-width: 786px;
@@ -93,21 +92,6 @@
   outline: none;
 }
 
-.block_jobs form i {
-<<<<<<< HEAD
-    color: gainsboro;
-    float: right;
-    text-align: center  ;
-    font-size: 20px;
-    align-items: center;
-    display: flex;
-=======
-  color: gainsboro;
-  float: right;
-  text-align: center;
-  font-size: 20px;
->>>>>>> origin
-}
 
 .block_jobs form input::-webkit-input-placeholder {
   color: gainsboro;
@@ -149,24 +133,6 @@
   line-height: 28px;
 }
 
-<<<<<<< HEAD
-.type_job   svg  {
-    color: gainsboro;
-}
-
-
-.type_job i   {
-    color: gainsboro;
-    align-items: center;
-=======
-.type_job svg {
-  color: gainsboro;
-}
-
-.type_job i {
-  color: gainsboro;
->>>>>>> origin
-}
 
 .type_job:hover {
   transition: all 1s;
@@ -175,5 +141,5 @@
 }
 section {
     padding: 0;
-
+    margin: 0;
 }
