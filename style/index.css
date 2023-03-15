@@ -64,6 +64,12 @@
       padding-top: 20px;
   }
   
+  
+@media  (max-width:600px){
+    .type_services {
+        width: 100px;
+    }
+}
 
 /*  block_jobs */
 

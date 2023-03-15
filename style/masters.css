@@ -80,6 +80,12 @@
     height: 200px;
 
 }
+
+@media  (max-width:600px){
+    .type_services {
+        width: 100px;
+    }
+}
   
 
 
@@ -194,6 +200,7 @@
 
 }
 
-.bth-footer a{
- text-decoration: none;
+
+.btn-footer {
+    padding-top: 60px;
 }
