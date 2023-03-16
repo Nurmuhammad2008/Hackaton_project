@@ -5,10 +5,7 @@
 }
 #navbar {
   position: fixed;
-  background-color: white;
-  width: 100%;
-  height: 80px;
-  box-shadow: 0px 1px 20px silver;
+
 }
 #logo-nav {
   width: 40px;
@@ -43,11 +40,9 @@
   background: #fff;
   box-shadow: 0px 0px 40px silver;
 }
-#flex-center {
-  margin-top: 20px;
-}
+
 #btn-rate {
-  margin-left: 40px;
+    
   border: none;
   width: 150px;
   height: 40px;
@@ -68,8 +63,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50px;
-  height: 50px;
   background-color: #00ab2d;
   color: white;
   width: 40px;
