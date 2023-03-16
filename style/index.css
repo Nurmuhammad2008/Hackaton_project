@@ -39,10 +39,19 @@
 }
 
 #random_number {
-    color: #00ab2d;
+    color: white;
     font-size: 10px;
     text-align: center;
-    
+    font-weight: 300;
+    background-color: #00ab2d;
+    height: 20px;
+    width: 30px;
+    border-radius: 30px;
+    text-align: center;
+    align-items: center;
+    padding-top: 3px;
+
+
     
 }
 
@@ -310,4 +319,96 @@ outline: none;
 section {
     padding: 0;
 
+}
+
+.icon-exit i {
+    font-size: 20px;
+    color: #00ab2d;
+    background-color: white;
+    box-shadow:10px 10px 20px  gainsboro;
+    padding: 30px;
+    border-radius: 50%;
+}
+
+.icon-exit p{
+    background-color: gainsboro;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 13px;
+    font-weight: 500;
+    height: 70px;
+}
+
+
+.icon-enter {
+    width: 300px;
+    border-radius: 10px;
+   background-color: rgb(236, 234, 234);
+   height: 25px;
+   padding: 2px 2px 2px 2px;
+   
+}
+
+.this-icon-enter {
+    background-color: #00ab2d;
+    width: 30px;
+    height: 22px;
+    border-radius: 10px;
+    padding: 3px;
+    align-items: center;
+    font-size: 10px;
+    font-family: bold;
+    align-items: center;
+    color: white;
+    text-align: center;
+    
+}
+
+.alert {
+    margin: 0 0 0 20px;
+}
+
+
+
+.register-btn ul li {
+    list-style: none;
+    padding: 10px;
+
+}
+
+.register-btn ul li div {
+    background: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 60px rgba(20,76,112,.1);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28px;
+    padding: 6px 12px;
+    width: 100%;
+}
+
+
+.register-btn button {
+    text-align: center;
+    border: none;
+    background-color: #00ab2d;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 70px;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+}
+
+
+.register-btn ul li div:hover {
+    border: 3px solid #00ab2d;
+    transition: 0.1s;
+    
+}
+
+.register {
+    padding: 30px;
 }
