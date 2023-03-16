@@ -412,3 +412,49 @@ section {
 .register {
     padding: 30px;
 }
+
+
+.last_reg-links {
+    list-style: none;
+
+}
+
+.last_reg-links input{
+    border: 2px solid #e5e5e5;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.last_reg-img {
+    list-style: none;
+    
+}
+
+.last_reg-img div a {
+    color: #00ab2d; 
+    text-align: center;
+    align-items: center;
+
+}
+
+.last_reg-img div {
+    width: 100%; 
+   display: flex;
+   border: 2px dashed #e5e5e5;
+   padding: 20px;
+   justify-content: center  ;
+}
+
+
+
+.last_reg-img div i {
+    font-size: 30px;
+    color: #00ab2d;
+    padding:10px;
+}
+
+
+.main-last-register ul li {
+    padding-bottom: 15px;
+}
