@@ -9,7 +9,7 @@
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/job.css">
     <link rel="icon" href="./images/logo_icon.jpg">
     <title>ilojibor.uz | Рawker</title>
 </head>
@@ -17,19 +17,24 @@
 <body>
     <!-- list search jobs -->
     <header>
-        <nav class="navbar_main container d-flex">
-            <div class="navbar-logo d-flex">
-                <i class="fa-solid fa-location-dot"></i>
-                <h1>Ilojibor.uz</h1>
+    <nav id="navbar">
+        <div id="flex-center">
+          <div id="nav-container">
+            <div id="left-containers">
+              <i
+                class="fa-solid fa-location-arrow margin-on-nav"
+                id="logo-nav"
+              ></i>
+              <h1 id="text-logo" class="margin-on-nav">IlojiBor.uz</h1>
             </div>
-            <div class="navbar-btn d-flex">
-                <div class="btn-button">Войти</div>
-                <div class="btn-button">Оставить заявку</div>
-                <div class="btn-phone">
-                    <i class="fa-solid fa-phone"></i>
-                </div>
+            <div id="right-container">
+              <button id="registr-btn">Войти</button>
+              <button id="btn-rate">Оставить отзыв</button>
+              <i class="fa-solid fa-phone-volume" id="phone-btn"></i>
             </div>
-        </nav>
+          </div>
+        </div>
+      </nav>
     </header>
     <!-- navbar -->
     <section>
@@ -52,7 +57,7 @@
                         <p>Мастера</p>
                     </div>
                 </a>
-                <a href="#">
+                <a href="prices.html">
                     <div class="type_services">
                         <i class="fa-solid fa-coins"></i>
                         <p>Цены</p>
@@ -171,7 +176,7 @@
                 <p>Ремонт кодитиционеров </p>
             </div>
         </div>
-        <div class="register">
+        <div class="register" id="register">
             <div class="container">
                 <div class="test-item">
                     <div class="icon-exit d-flex ">
@@ -200,34 +205,37 @@
                 
             </div>
         </div>
-        <div class="last-register">
-            <div class="icon-exit d-flex ">
+        <div class="last-register" id="last-register">
+        <div class="icon-exit d-flex ">
                 <i class="fa-solid fa-arrow-right-from-bracket alert"></i>
-                <p class="alert">Заявка заполнена на 10% — мы на верном <br> пути к решению вашей задачи!</p>
+                <p class="alert">Заявка заполнена на 100% — мы на верном <br> пути к решению вашей задачи!</p>
                <div class="icon-enter alert">
-                <div class="this-icon-enter " style="width: 200px;" value="10">80%</div>
+                <div class="this-icon-enter " style="width: 300px;" value="10">100%</div>
                </div>
             </div>
             <div class="main-last-register">
                 <h3 class="text-center">Контактная информация</h3>
                 <ul>
                     <li class="last_reg-links">
-                        <input type="text" placeholder="Имя">
+                        <input type="text" placeholder="Имя" required>
                     </li>
                     <li class="last_reg-links">
-                        <input type="tel" placeholder=" + 998 ">
+                        <input type="tel" placeholder=" + 998 " required>
                     </li>
                     <li class="last_reg-links">
-                        <input type="text" placeholder="Укажите адрес, по которому вы хотите заказать услугу">
+                        <input type="text" placeholder="Укажите адрес, по которому вы хотите заказать услугу" required>
                     </li>
                     <li class="last_reg-links">
-                        <input type="text" placeholder="Здесь вы можете кратко описать ситуацию">
+                        <input type="text" placeholder="Здесь вы можете кратко описать ситуацию" required>
                     </li>
-                    <li class="last_reg-img">
+                    <li class="last_reg-img " >
                         <div class="d-flex">
                             <i class="fa-regular fa-file-image"></i>
                             <p><a href="#">Загрузите фото</a></p>
                         </div>
+                    </li>
+                    <li>
+                        <a href="#"><button>Офармить заявку</button></a>
                     </li>
                 </ul>
             </div>

@@ -12,25 +12,30 @@
 </head>
 <body>
     <header>
-        <nav class="navbar-main container d-flex">
-            <div class="navbar-logo d-flex">
-                <i class="fa-solid fa-location-dot"></i>
-           <h1>Ilojibor.uz</h1>
-            </div>
-            <div class="navbar-btn d-flex">
-                <div class="btn-button">Войти</div>
-                <div class="btn-button">Оставить заявку</div>
-                <div class="btn-phone">
-                   <i class="fa-solid fa-phone"></i>   
+        <nav id="navbar">
+            <div id="flex-center">
+              <div id="nav-container">
+                <div id="left-containers">
+                  <i
+                    class="fa-solid fa-location-arrow margin-on-nav"
+                    id="logo-nav"
+                  ></i>
+                  <h1 id="text-logo" class="margin-on-nav">ilojibor.uz</h1>
                 </div>
+                <div id="right-container">
+                  <button id="registr-btn">Войти</button>
+                  <button id="btn-rate">Оставить отзыв</button>
+                  <i class="fa-solid fa-phone-volume" id="phone-btn"></i>
+                </div>
+              </div>
             </div>
-        </nav>
-    </header>
+          </nav>
+        </header>
 
     <section >
         <div class="container block_services">
     <div class="services d-flex justify-content-around">
-       <a href="index.html">
+       <a href="job.html">
         <div class="type_services">
         <i class="fa-solid fa-file-lines"></i>
         <p>Заявка</p>
@@ -46,7 +51,7 @@
                 <p>Мастера</p>
             </div>
         </a>
-        <a href="#">
+        <a href="prices.html">
             <div class="type_services">
                 <i class="fa-solid fa-coins"></i>
             <p>Цены</p>
@@ -286,6 +291,7 @@
 
     <script src="js/bootstrap.js"></script>
     <script src="block-services.js"></script>
+    <script src="block_jobs.js"></script>
 
 </body>
 </html>
