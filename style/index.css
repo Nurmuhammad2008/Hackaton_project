@@ -38,9 +38,18 @@
     font-family: 'Lilita One', cursive;
 }
 
+#random_number {
+    color: #00ab2d;
+    font-size: 10px;
+    text-align: center;
+    
+    
+}
+
 .navbar-logo i {
     font-size: 40px;
     color: #00ab2d;
+    column-gap: 4px;
 }
 
 .navbar-logo {

@@ -1,5 +1,6 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lilita+One&family=Tilt+Warp&display=swap');* {
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lilita+One&family=Tilt+Warp&display=swap');
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -89,6 +90,14 @@
       padding-bottom: 15px;
       color: gainsboro;
   }
+
+  #random_number {
+    color: #00ab2d;
+    font-size: 10px;
+    text-align: center;
+    
+    
+}
   
   .type_services:hover p {
   color: gainsboro;
