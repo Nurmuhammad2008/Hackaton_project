@@ -200,3 +200,39 @@ body {
   align-items: center;
   width: 100%;
 }
+/* Как это работает */
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.cart__items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  position: relative;
+  top: 400px;
+}
+
+.cart {
+  border-radius: 25px;
+  width: 15rem;
+  margin-left: 50px;
+  margin-right: 50px;
+  box-shadow: 20px 20px 50px silver;
+}
+
+.cart__title {
+  text-align: center;
+}
+
+.cart__text {
+  text-align: center;
+}
+
+.cart__img {
+  padding-top: 10px;
+  margin-left: 38px;
+}
