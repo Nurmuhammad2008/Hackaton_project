@@ -3,9 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  height: 2000px;
-}
+
 #navbar {
   z-index: 10;
   position: fixed;

@@ -4,9 +4,7 @@
   outline: none;
 }
 /* navbar */
-body {
-  height: 2000px;
-}
+
 #navbar {
   z-index: 10;
   position: fixed;
@@ -454,11 +452,11 @@ div.fields-inline div.form-field:last-child input {
   color: gainsboro;
 }
 
-.services a:nth-child(2) i {
+.services a:nth-child(3) i {
   color: #00ab2d;
 }
 
-.services a:nth-child(2) {
+.services a:nth-child(3) {
   border-bottom: 3px solid #00ab2d;
 }
 
@@ -757,6 +755,11 @@ a.btn-submit,
 a.button-blue {
   line-height: 40px;
   text-decoration: none;
+}
+
+a.btn-submit {
+  width: 200px;
+  margin-top: 34px;
 }
 
 .button-contacts {
@@ -2393,6 +2396,11 @@ body.fixed div.content-mobile div.button {
   body.fixed div.content-mobile div.button {
     left: 0;
   }
+}
+
+.button {
+  display: flex;
+  justify-content: center;
 }
 
 .page-title {
